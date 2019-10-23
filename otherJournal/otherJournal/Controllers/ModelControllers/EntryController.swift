@@ -11,12 +11,18 @@ import Foundation
 class EntryController {
     
     
+    static let sharedInstance = EntryController()
+    
+    var entries: [Entry] = []
+    
     func create(body: String) {
+        let entry = Entry(body: body)
+        self.entries.append(entry)
         
     }
     
     func delete(entry: Entry) {
-        
+        self.entries.removeAll()
     }
     
     func update(entry: Entry, newBody: String) {
