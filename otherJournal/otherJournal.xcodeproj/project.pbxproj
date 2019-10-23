@@ -15,6 +15,7 @@
 		62FC44F12360AF430092D966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FC44F02360AF430092D966 /* Assets.xcassets */; };
 		62FC44F42360AF430092D966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FC44F22360AF430092D966 /* LaunchScreen.storyboard */; };
 		62FC45022360B1080092D966 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC45012360B1080092D966 /* Entry.swift */; };
+		62FC45052360B8EE0092D966 /* EntryDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FC45032360B8EE0092D966 /* EntryDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		62FC44F32360AF430092D966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62FC44F52360AF430092D966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62FC45012360B1080092D966 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		62FC45042360B8EE0092D966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = otherJournal/Views/Base.lproj/EntryDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				62FC44ED2360AF410092D966 /* Main.storyboard */,
+				62FC45032360B8EE0092D966 /* EntryDetail.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				62FC44F42360AF430092D966 /* LaunchScreen.storyboard in Resources */,
 				62FC44F12360AF430092D966 /* Assets.xcassets in Resources */,
+				62FC45052360B8EE0092D966 /* EntryDetail.storyboard in Resources */,
 				62FC44EF2360AF410092D966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +221,14 @@
 				62FC44F32360AF430092D966 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		62FC45032360B8EE0092D966 /* EntryDetail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62FC45042360B8EE0092D966 /* Base */,
+			);
+			name = EntryDetail.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
