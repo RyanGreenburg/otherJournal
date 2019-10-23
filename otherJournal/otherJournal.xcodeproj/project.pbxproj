@@ -13,6 +13,7 @@
 		62FC44EF2360AF410092D966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FC44ED2360AF410092D966 /* Main.storyboard */; };
 		62FC44F12360AF430092D966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FC44F02360AF430092D966 /* Assets.xcassets */; };
 		62FC44F42360AF430092D966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FC44F22360AF430092D966 /* LaunchScreen.storyboard */; };
+		62FC45022360B1080092D966 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC45012360B1080092D966 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		62FC44F02360AF430092D966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FC44F32360AF430092D966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62FC44F52360AF430092D966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FC45012360B1080092D966 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		62FC44FC2360AF6A0092D966 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				62FC45012360B1080092D966 /* Entry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FC45022360B1080092D966 /* Entry.swift in Sources */,
 				62FC44EC2360AF410092D966 /* ViewController.swift in Sources */,
 				62FC44E82360AF410092D966 /* AppDelegate.swift in Sources */,
 				62FC44EA2360AF410092D966 /* SceneDelegate.swift in Sources */,
@@ -334,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H8C27D6HU3;
-				INFOPLIST_FILE = otherJournal/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/otherJournal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H8C27D6HU3;
-				INFOPLIST_FILE = otherJournal/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/otherJournal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
