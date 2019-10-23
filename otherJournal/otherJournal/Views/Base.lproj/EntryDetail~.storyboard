@@ -43,7 +43,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="hVx-Ag-vYy" kind="show" identifier="toEntryDetailVC" id="r6F-w7-b9h"/>
+                                            <segue destination="bvU-L7-yZi" kind="show" identifier="toEntryDetailVC" id="r6F-w7-b9h"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -61,7 +61,7 @@
                     <navigationItem key="navigationItem" id="E18-84-I6T">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="pIR-YL-w5Y">
                             <connections>
-                                <segue destination="hVx-Ag-vYy" kind="show" id="e6A-ya-c87"/>
+                                <segue destination="bvU-L7-yZi" kind="show" id="e6A-ya-c87"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -69,6 +69,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Brh-sm-R1Q">
+            <objects>
+                <viewController id="bvU-L7-yZi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Ct-OU-KVR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CrE-KL-z6E">
+                                <rect key="frame" x="191" y="431" width="32" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CrE-KL-z6E" firstAttribute="centerY" secondItem="9Ct-OU-KVR" secondAttribute="centerY" id="BNa-XL-3KI"/>
+                            <constraint firstItem="CrE-KL-z6E" firstAttribute="centerX" secondItem="9Ct-OU-KVR" secondAttribute="centerX" id="GFb-ga-QRc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hy7-v6-Tmu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OIV-V3-lqL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="94n-Vt-cG8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ob2-yh-Xlf">
@@ -88,18 +115,8 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--EntryDetail-->
-        <scene sceneID="wVU-hc-o7x">
-            <objects>
-                <viewControllerPlaceholder storyboardName="EntryDetail" id="hVx-Ag-vYy" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="bry-No-J2Z"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Kn-8Y-ZDj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1884" y="138"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="e6A-ya-c87"/>
+        <segue reference="r6F-w7-b9h"/>
     </inferredMetricsTieBreakers>
 </document>
